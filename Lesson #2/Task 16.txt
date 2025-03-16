@@ -1,0 +1,10 @@
+Wszystkie trzy wywołania funkcji range() zwrócą identyczną sekwencję liczb:
+
+range(10)         # Zakres: 0 do 9 (domyślnie zaczyna od 0, krok 1)
+range(0, 10)      # Jawnie podany początek (0) i koniec (10), domyślny krok 1
+range(0, 10, 1)   # Jawnie podane wszystkie trzy argumenty: początek (0), koniec (10), krok (1)
+
+Różnice są wyłącznie syntaktyczne:
+
+range(10) to skrócona wersja range(0, 10), gdzie domyślną wartością początku jest 0.
+range(0, 10, 1) jawnie określa wszystkie parametry, choć domyślnie krok wynosi 1.
