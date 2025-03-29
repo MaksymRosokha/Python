@@ -1,0 +1,14 @@
+Różnica między L.insert(2, -1) a L[2] = -1
+
+L.insert(2, -1):
+Wstawia wartość -1 na indeksie 2, przesuwając pozostałe elementy w prawo.
+Długość listy zwiększa się o 1.
+
+L[2] = -1:
+Zamienia istniejący element na indeksie 2 na -1.
+Nie zmienia długości listy.
+
+
+Dodawanie elementów na początek i koniec listy za pomocą insert()
+Na początek: L.insert(0, value)
+Na koniec: L.insert(len(L), value)
